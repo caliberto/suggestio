@@ -1,2 +1,2 @@
 # suggestio
-Reccomendation bot
+Recommendation bot

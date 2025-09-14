@@ -1,0 +1,6 @@
+POST https://api.telegram.org/bot8382972637:AAH5VRIq9YwBzF3p3w7yFMY2c_F9FBeaGiY/setWebhook
+Content-Type: application/json
+
+{
+  "url": "https://ba39c8346b24.ngrok-free.app/webhook"
+}

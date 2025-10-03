@@ -2,7 +2,7 @@ package telegram
 
 import (
 	"log"
-	"suggestio/internal/config"
+	"suggestio/src/config"
 
 	"github.com/gin-gonic/gin"
 )

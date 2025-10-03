@@ -2,8 +2,8 @@ package main
 
 import (
 	"log"
-	telegram "suggestio/apps/telegram/controllers"
-	"suggestio/internal/config"
+	"suggestio/src/config"
+	"suggestio/src/controllers/telegram"
 )
 
 func main() {

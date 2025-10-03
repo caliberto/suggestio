@@ -1,4 +1,4 @@
-package telegram_controllers
+package telegram
 
 import (
 	"log"

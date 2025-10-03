@@ -1,4 +1,4 @@
-package service_books
+package books
 
 type BookService interface {
 	GetRecommendations(text any) ([]any, error)

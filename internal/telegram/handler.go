@@ -33,10 +33,12 @@ func handleUpdate(c *gin.Context, token string) {
 	chatID := update.Message.Chat.ID
 
 	switch text {
-	case "/start":
+	case Commands[START]:
 		sendMessage(token, chatID, "👋 Ciao! Benvenuto su *Suggestio*. Scrivi /recommend per ricevere un consiglio!")
-	case "/help":
+	case Commands[HELP]:
 		sendMessage(token, chatID, "📖 Comandi disponibili:\n/start - Avvia il bot\n/recommend - Ricevi una raccomandazione\n/help - Mostra questo messaggio")
+	case Commands[RECOMMEND]:
+		sendMessage(token, chatID, "Comando non ancora implementato.")
 	default:
 		sendMessage(token, chatID, "❓ Comando non riconosciuto. Usa /help per la lista completa.")
 	}
